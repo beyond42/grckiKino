@@ -52,7 +52,7 @@ class TalonViewController: UIViewController, UICollectionViewDelegate, UICollect
         let dateStr = formatter.string(from: date)
         drawTimeLabel.text = dateStr
         
-        self.navigationController?.title = "Grčki Kino"
+        self.navigationController?.title = "Talon"
     }
     
     func fillNumbers() {
